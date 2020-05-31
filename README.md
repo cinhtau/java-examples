@@ -10,7 +10,7 @@ Feel free, PR are welcome
 
 See [LICENSE](LICENSE)
 
-## TOC
+## Data Structures
 
 - [Collections](data-structures/collections.md)
   - [Traversing Collections](data-structures/traversing-collections.md)

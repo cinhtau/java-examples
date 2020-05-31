@@ -1,5 +1,6 @@
-## Traversing Collections
+[Main](../README.md)
 
+## Traversing Collections
 
 > There are three ways to traverse collections: 
 > (1) using aggregate operations 
