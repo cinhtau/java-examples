@@ -26,6 +26,7 @@ Objects.requireNonNull(foo);
 ## Guava
 
 Use `Preconditions.checkNotNull` checks that the value is not null. Returns the value directly, so you can use `checkNotNull(value)` inline.
+
 ```java
 /**
  * Ensures that an object reference passed as a parameter to the calling
@@ -44,6 +45,7 @@ public static <T> T checkNotNull(T reference) {
 ```
 
 Example
+
 ```java
 package com.google.common.base;
 
@@ -73,7 +75,7 @@ public class PreconditionsTest {
 
 ## Apache Commons Lang
 
-<pre class="brush: java; toolbar: false; highlight:[21]">
+```java
 package org.apache.commons.lang;
 
 import org.apache.commons.lang3.Validate;
@@ -100,6 +102,7 @@ public class ValidateTest {
 ```
 
 Throws a NPE with specific message. Apache Commons Lang implementation:
+
 ```java
     public static <T> T notNull(T object, String message, Object... values) {
         if (object == null) {
