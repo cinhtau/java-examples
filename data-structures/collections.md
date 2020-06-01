@@ -1,4 +1,4 @@
-[Main](../README.md)
+Back to [Data Structures](index.md)
 
 ## Collections
 

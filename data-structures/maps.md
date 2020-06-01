@@ -1,12 +1,12 @@
-[Main](../README.md)
+Back to [Data Structures](index.md)
 
 ## Associating a Value with an Object
 
-This example demonstrates how to associate a value with an arbitrary object. 
+This example demonstrates how to associate a value with an arbitrary object.
 
-The technique involves saving the object and the associated value as a key/value pair in an 
-`IdentityHashMap`. 
-A `HashMap` cannot be used for this purpose since if two objects happen to equal via 
+The technique involves saving the object and the associated value as a key/value pair in an
+`IdentityHashMap`.
+A `HashMap` cannot be used for this purpose since if two objects happen to equal via
 the `Object.equals()` method, one of the objects will not be stored.
 
 ```java

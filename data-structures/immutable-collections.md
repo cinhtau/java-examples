@@ -1,13 +1,13 @@
-[Main](../README.md)
+Back to [Data Structures](index.md)
 
 ## Making a Collection Read-Only
 
 Making a collection read-only involves wrapping the collection in another object whose
  mutation methods all throw <code>UnsupportedOperationException</code>.
 
-## The Case for Immutable Collections 
+## The Case for Immutable Collections
 
-This is useful if you have a requirement case, where the collection like a history can't be modified. 
+This is useful if you have a requirement case, where the collection like a history can't be modified.
 Further examples: A set of instructions or a processed order list.
 
 ```java
@@ -25,7 +25,7 @@ try {
 }
 ```
 
-### Make a Set immutable 
+### Make a Set immutable
 
 ```java
 // Make a set read-only
@@ -33,7 +33,7 @@ Set set = new HashSet(stuff);
 set = Collections.unmodifiableSet(set);
 ```
 
-### Make a Map immutable 
+### Make a Map immutable
 
 ```java
 // Make a map read-only
@@ -41,4 +41,3 @@ Map map = new HashMap();
 // Add key/value pairs ...
 map = Collections.unmodifiableMap(map);
 ```
-
