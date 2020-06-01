@@ -10,5 +10,8 @@ Feel free, PR are welcome
 
 See [LICENSE](LICENSE)
 
+## Contents
 
+- [Basics](basics/index.md)
+- [Data Structures](data-structures/index.md)
 - [Libraries](libraries/index.md)
