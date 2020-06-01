@@ -24,3 +24,6 @@ array = (MyClass[])map.values().toArray(new MyClass[set.size()]);
 ```
 
 - If the array is not large enough, the array size is redetermined.
+
+See also
+- [Converting Array To Collection](array-to-collection.md)
