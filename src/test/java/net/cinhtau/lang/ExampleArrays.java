@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class Arrays {
+public class ExampleArrays {
 
-    private static final Logger logger = LogManager.getLogger(Arrays.class);
+    private static final Logger logger = LogManager.getLogger(ExampleArrays.class);
 
     @Test
     public void sortStrings() {
