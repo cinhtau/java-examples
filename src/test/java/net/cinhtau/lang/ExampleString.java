@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ExampleString {
 
@@ -29,6 +30,18 @@ public class ExampleString {
         }
         //then
         assertArrayEquals(expected, actual, "String parsed correctly");
+    }
+
+    @Test
+    public void substring() {
+        //given
+        String cert = "endpoint.certificate.user[\"10\"].time_valid_from=\"1553673963\"";
+        int beginIndex = cert.indexOf("\"");
+        int endIndex = cert.indexOf("\"", beginIndex + 1);
+        //when
+        String actual = cert.substring(beginIndex + 1, endIndex);
+        //then
+        assertEquals("10", actual, "certificate no 10");
     }
 
 }
