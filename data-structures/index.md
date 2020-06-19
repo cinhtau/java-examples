@@ -2,6 +2,11 @@ Back to [Main](../README.md)
 
 # Data Structures
 
+- Arrays
+- Collections
+- [Sets](sets.md)
+- Maps
+
 ## [Arrays](arrays.md)
 
 - [Data Structuring Using Arrays](array-data-structuring.md)
@@ -24,3 +29,4 @@ Back to [Main](../README.md)
 - [Convert Array To Collection](array-to-collection.md)
 
 ## [Maps](maps.md)
+

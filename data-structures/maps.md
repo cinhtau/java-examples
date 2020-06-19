@@ -2,6 +2,9 @@ Back to [Data Structures](index.md)
 
 # Maps
 
+* A Map is an object, that maps `keys` to `values`.
+* A Map cannot contain `duplicate` keys.
+
 ## Associating a Value with an Object
 
 This example demonstrates how to associate a value with an arbitrary object.
