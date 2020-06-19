@@ -2,10 +2,10 @@ Back to [Main](../README.md)
 
 # Data Structures
 
-- Arrays
-- Collections
+- [Arrays](arrays.md)
+- [Collections](collections.md)
+- [Maps](maps.md)
 - [Sets](sets.md)
-- Maps
 
 ## [Arrays](arrays.md)
 
@@ -30,3 +30,4 @@ Back to [Main](../README.md)
 
 ## [Maps](maps.md)
 
+## [Sets](sets.md)
