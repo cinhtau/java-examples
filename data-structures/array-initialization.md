@@ -1,3 +1,5 @@
+Back to [Data Structures](index.md) &rArr; [Arrays](arrays.md) 
+
 ## Initialization
 
 Unless you specify otherwise, an array of integers is automatically initialized to 0 when it's created. 

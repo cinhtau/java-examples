@@ -67,7 +67,7 @@ public class ArrayDemo {
 - [Initialization](array-initialization.md)
 - [Operations on Arrays](array-operations.md)
 - [Resizing an Array](array-resizing.md)
-- [Comparing Arrays](comparing-arrays.md)
+- [Comparing Arrays](array-comparing.md)
 - [Filling Elements in an Array](array-filling-elements.md)
 - [Sorting an Array](array-sort.md)
 - [Converting a Collection to an Array](array-to-collection.md)

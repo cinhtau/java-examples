@@ -1,3 +1,5 @@
+Back to [Data Structures](index.md) &rArr; [Arrays](arrays.md) 
+
 ## Accessing an Array
 
 Array elements are accessed using square brackets. This is similar to how other languages work.

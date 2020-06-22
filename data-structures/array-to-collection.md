@@ -1,4 +1,4 @@
-Back to [Data Structures](index.md)
+Back to [Data Structures](index.md) &rArr; [Arrays](arrays.md) 
 
 ## Converting an Array to a Collection
 
