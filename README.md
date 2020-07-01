@@ -15,3 +15,7 @@ See [LICENSE](LICENSE)
 - [Basics](basics/index.md)
 - [Data Structures](data-structures/index.md)
 - [Libraries](libraries/index.md)
+
+## XML
+
+- [JDOM](xml/jdom.md)
