@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class ExampleArrays {
+class ExampleArrays {
 
     private static final Logger logger = LogManager.getLogger(ExampleArrays.class);
 
     @Test
-    public void sortStrings() {
+    void sortStrings() {
         // given
         String[] session = new String[]{
                 "endpoint.certificate.user[\"3\"].subject_o=\"LANDesk Software, Inc.\"",

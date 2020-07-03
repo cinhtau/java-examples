@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ExampleString {
+class ExampleString {
 
     private static final Logger logger = LogManager.getLogger(ExampleArrays.class);
 
     @Test
-    public void split() {
+    void split() {
         //given
         String session = "endpoint.as[\"SophosAV\"].lastupdate=\"42638\"\n" +
                 "endpoint.av[\"SophosAV\"]={}\n" +
@@ -33,7 +33,7 @@ public class ExampleString {
     }
 
     @Test
-    public void substring() {
+    void substring() {
         //given
         String cert = "endpoint.certificate.user[\"10\"].time_valid_from=\"1553673963\"";
         int beginIndex = cert.indexOf("\"");
