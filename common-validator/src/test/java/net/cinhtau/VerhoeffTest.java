@@ -2,6 +2,8 @@ package net.cinhtau;
 
 import org.apache.commons.validator.routines.checkdigit.CheckDigitException;
 import org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,6 +13,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class VerhoeffTest {
 
+    private static final Logger logger = LogManager.getLogger(VerhoeffTest.class);
+
     @Test
     public void calculateChecksum() throws CheckDigitException {
         // given
@@ -19,7 +23,7 @@ class VerhoeffTest {
 
         // when
         String actual = VerhoeffCheckDigit.VERHOEFF_CHECK_DIGIT.calculate(companyCode);
-
+        logger.info("Checksum for {} is {}", companyCode, actual);
         //then
         assertEquals(expectedChecksum, actual);
     }
@@ -29,8 +33,7 @@ class VerhoeffTest {
         // given
         String code = "903680023";
         String faultyCode = "1256369654";
-        // when
-        // then
+        // when && then
         assertTrue(VerhoeffCheckDigit.VERHOEFF_CHECK_DIGIT.isValid(code));
         assertFalse(VerhoeffCheckDigit.VERHOEFF_CHECK_DIGIT.isValid(faultyCode));
     }

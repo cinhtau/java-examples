@@ -12,3 +12,6 @@ It may be used standalone or with a framework like Struts.
 </dependency>
 ```
 
+## Algorithms
+
+- [Verhoeff](docs/verhoeff.md)
