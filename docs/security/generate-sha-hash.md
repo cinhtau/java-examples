@@ -20,7 +20,7 @@ echo "kal-el" | sha1sum
 7345daf89166949042d30fdcd64c1381653a0508  -
 ```
 
-See [CryptographicServicesUtils](../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
+See [CryptographicServicesUtils](../../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
 
 ```java
 private static String getMessageDigestSum(final String algorithm, final String text) {

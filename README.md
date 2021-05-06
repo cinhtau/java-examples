@@ -12,14 +12,14 @@ See [LICENSE](LICENSE)
 
 ## Contents
 
-- [Basics](basics/index.md)
-- [Data Structures](data-structures/index.md)
-- [Libraries](libraries/index.md)
+- [Basics](docs/basics/index.md)
+- [Data Structures](docs/data-structures/index.md)
+- [Libraries](docs/libraries/index.md)
 
 ## XML
 
-- [JDOM](xml/jdom.md)
+- [JDOM](xml-jdom/jdom.md)
 
 ## Security
 
-- [Security](security/index.md)
+- [Security](docs/security/index.md)

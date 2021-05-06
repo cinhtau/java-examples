@@ -3,8 +3,8 @@ The retrieved list of names can be used in creating a `MessageDigest` object.
 
 See 
 
-- [CryptographicServicesUtils](../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
-- [Test](../src/test/java/net/cinhtau/security/CryptographicServicesUtilsTest.java)
+- [CryptographicServicesUtils](../../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
+- [Test](../../src/test/java/net/cinhtau/security/CryptographicServicesUtilsTest.java)
 
 Output
 

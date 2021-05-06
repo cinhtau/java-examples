@@ -2,8 +2,8 @@ The providers of cryptographic services such as key generation algorithms, regis
 
 See 
 
-- [CryptographicServicesUtils](../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
-- [Test](../src/test/java/net/cinhtau/security/CryptographicServicesUtilsTest.java)
+- [CryptographicServicesUtils](../../src/main/java/net/cinhtau/security/CryptographicServicesUtils.java)
+- [Test](../../src/test/java/net/cinhtau/security/CryptographicServicesUtilsTest.java)
 
 Output
 
