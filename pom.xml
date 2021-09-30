@@ -13,6 +13,7 @@
     <modules>
         <module>common-validator</module>
         <module>xml-jdom</module>
+        <module>kafka-streams</module>
     </modules>
 
     <properties>
