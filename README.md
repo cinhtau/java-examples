@@ -2,9 +2,19 @@
 
 Java Examples in a Nutshell - my personal Almanac
 
-## Contributing
+A loose collection of notes and copy and paste from various sources (books, websites, etc.).
 
-Feel free, PR are welcome
+## Disclaimer
+
+### NO GUARANTEE OF VALIDITY
+
+This repo is a public online open-content notebook.
+
+### USE AT YOUR OWN RISK
+
+Some information may create an unreasonable risk for readers who choose to apply or use the information in their own activities or to promote the information for use by third parties.
+
+No one, in any way whatsoever, can be responsible for your use of the information contained in or linked from these web pages.
 
 ## License
 

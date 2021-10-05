@@ -131,6 +131,38 @@ try {
 }
 ```
 
+## Converting byte[] array to String
+
+For text or character data, we use new `String(bytes, StandardCharsets.UTF_8)` to convert a `byte[]` to a `String`.
+
+```java
+import java.nio.charset.StandardCharsets;
+
+// string to byte[]
+byte[] bytes = "hello".getBytes();
+
+// byte[] to string
+String s = new String(bytes, StandardCharsets.UTF_8);
+// without StandardCharsets
+s = new String(bytes, "UTF-8");
+```
+
+However, for cases that `byte[]` is holding the binary data like the image or other non-text data, the best practice is 
+to convert the `byte[]` into a Base64 encoded String.
+
+```java
+// file to byte[]
+byte[] bytes = Files.readAllBytes(Paths.get("/path/image.png"));
+
+// Java 8 - Base64 class, finally.
+// byte[] to base64 encoded string
+String s = Base64.getEncoder().encodeToString(bytes);
+System.out.println(s);
+
+// base64 encoded string to byte[]
+byte[] decode = Base64.getDecoder().decode(s);
+```
+
 ## Determining a Character's Unicode Block
 
 ## Determining If a String Contains a Substring
